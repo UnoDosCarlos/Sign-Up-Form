@@ -44,31 +44,46 @@ font-size: 100%;
 
 
 
-
-
   body > .container {
     display: flex;
     flex-direction: row;
     margin: auto;
     height: 100vh;
     width: 140vh;
-    border: 1px solid red;
     min-height: 25vh;
     min-width: 25vh;
 
   }
 
   .logo-side  {
-    width: 40%;
-    background-color: blue;
+    width: 46%;
+    background-image: url("./images/aoslogo2.jpg");
+    background-size: cover;
+    background-position: -460px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
   }
 
   .logo-container {
-    background-color: aqua;
-    opacity: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+
   }
 
+  .logo {
 
+      font-family: "built-titling";
+      font-size: 70px;
+
+  }
+
+ 
   .sign-up-form {
     display: flex;
     flex-direction: column;
@@ -83,7 +98,6 @@ font-size: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
-    flex: 1;
     padding: 10px;
     box-shadow: 0px 2px 10px gray;
   }
@@ -108,19 +122,19 @@ font-size: 100%;
 
   }
 
-  form {
+  .form {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-
+    max-width: 90%;
+    min-width: 90%;
   }
 
-  label, input {
-    
+  label {
+    display: block;
   }
 
-  form div {
-    width: 120px;
-    margin: 16px;
+  .form div {
 
   }
 
