@@ -40,15 +40,15 @@
                         </div>
                         <div>
                         <label for="password">Password:*(min 8 characters)</label>
-                        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_=+-]).{8,}"
-                        title="Must contain at least one number, one uppercase and lowercase letter, one special character, and at least 8 or more characters"
+                        <input type="password" pattern="[A-Za-z0-9]{8,}"
+                        title="Must contain at least 8 or more letters or numbers"
                          id="password" name="password" minlength="8"
                         maxlength="16" required>
                         </div>
                         <div>
                         <label for="confirm-password">Confirm Password:*</label>
-                        <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*_=+-]).{8,}"
-                        title="Must contain at least one number, one uppercase and lowercase letter, one special character, and at least 8 or more characters"
+                        <input type="password" pattern="[A-Za-z0-9]{8,}"
+                        title="Must contain at least 8 or more letters or numbers"
                         id="password" name="password"
                         maxlength="16" required>
                         </div>
