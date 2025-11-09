@@ -55,6 +55,7 @@ font-size: 100%;
 
   }
 
+
   .logo-side  {
     width: 46%;
     background-image: url("./images/aoslogo2.jpg");
@@ -68,13 +69,7 @@ font-size: 100%;
     
   }
 
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 16px;
-
-  }
+ 
 
   .hydra-button {
     padding: 24px;
@@ -180,12 +175,12 @@ font-size: 100%;
   }
 
   button:hover{
-  opacity: 90%;
+  opacity: 70%;
 
   }
 
   button:active {
-  opacity: 70%;
+  opacity: 50%;
   }
 
   p {
@@ -194,3 +189,25 @@ font-size: 100%;
 
   }
 
+  input:user-invalid{
+    box-shadow: 0 0 5px rgb(230, 19, 19);
+
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(44, 140, 219);
+
+  }
+
+  .hydra-login {
+  display: none;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  background-color: rgb(192, 23, 23);
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  margin: 16px;
+  }
